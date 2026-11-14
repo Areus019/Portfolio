@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1400 810" preserveAspectRatio="xMidYMid meet" style="background:#11171c" role="img" aria-labelledby="title description">
+  <title id="title">Reference-based operator profile card mockup</title>
+  <desc id="description">A dark operator profile interface with a left personnel rail, centered Ras artwork that fades at both sides, language specialties, and an education panel.</desc>
+  <defs>
+    <linearGradient id="screen" x2="1" y2="1">
+      <stop stop-color="#25303a"/>
+      <stop offset=".48" stop-color="#11171c"/>
+      <stop offset="1" stop-color="#202529"/>
+    </linearGradient>
+    <linearGradient id="frame" x2="1" y2="1">
+      <stop stop-color="#242b2e"/>
+      <stop offset="1" stop-color="#101416"/>
+    </linearGradient>
+    <linearGradient id="cyan" x2="1">
+      <stop stop-color="#087b9e"/>
+      <stop offset="1" stop-color="#20b5d7"/>
+    </linearGradient>
+    <linearGradient id="fadeArt" gradientUnits="userSpaceOnUse" x1="270" y1="0" x2="760" y2="0">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".14" stop-color="#000"/>
+      <stop offset=".30" stop-color="#fff"/>
+      <stop offset=".70" stop-color="#fff"/>
+      <stop offset=".86" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="rail" x2="0" y2="1">
+      <stop stop-color="#11171b" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#0b1014" stop-opacity=".96"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/>
+    </pattern>
+    <pattern id="hatch" width="10" height="10" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <path d="M0 0V10" stroke="#dce5e2" stroke-opacity=".05" stroke-width="2"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect x="58" y="92" width="1260" height="620"/>
+    </clipPath>
+    <mask id="artMask" maskUnits="userSpaceOnUse" x="270" y="92" width="490" height="620" mask-type="luminance">
+      <rect x="270" y="92" width="490" height="620" fill="url(#fadeArt)"/>
+    </mask>
+  </defs>
+
+  <rect width="1400" height="810" fill="url(#screen)"/>
+  <rect width="1400" height="810" fill="url(#grid)"/>
+  <path d="M0 650 280 0h110L125 810H0zm1030 0L1305 0h95v190L1120 810h-90z" fill="#dbe5e1" opacity=".025"/>
+
+  <rect width="1400" height="64" fill="#101416" opacity=".97"/>
+  <path d="M0 64h1400" stroke="#e9eeee" stroke-opacity=".14"/>
+  <g fill="none" stroke="#dce4e1" stroke-width="2">
+    <path d="m22 32 17-17 17 17-17 17z"/>
+    <path d="M39 22v20m-10-10h20"/>
+    <circle cx="92" cy="32" r="15"/>
+  </g>
+  <text x="87" y="38" fill="#e9eeee" font-family="Arial,sans-serif" font-size="17" font-weight="700">i</text>
+  <text x="667" y="39" fill="#eef2ef" font-family="Arial,sans-serif" font-size="20">MY INFO</text>
+  <circle cx="1047" cy="32" r="22" fill="#11161b" stroke="#596269"/>
+  <text x="1038" y="28" fill="#aeb8bb" font-family="Arial,sans-serif" font-size="9">FILE</text>
+  <text x="1041" y="44" fill="#fff" font-family="Arial,sans-serif" font-size="14" font-weight="700">01</text>
+  <text x="1081" y="40" fill="#f3f5f3" font-family="Arial,sans-serif" font-size="22" font-weight="700">Yvan Herbito</text>
+
+  <rect x="64" y="98" width="1260" height="620" rx="3" fill="#050809" opacity=".48"/>
+  <rect x="58" y="92" width="1260" height="620" rx="3" fill="url(#frame)" stroke="#d8dfdc" stroke-width="2"/>
+  <g clip-path="url(#cardClip)">
+    <rect x="58" y="92" width="1260" height="620" fill="url(#hatch)" opacity=".42"/>
+    <image href="Ras.jpg" x="270" y="-70" width="490" height="1088.889" preserveAspectRatio="none" clip-path="url(#cardClip)" mask="url(#artMask)"/>
+    <rect x="270" y="92" width="490" height="620" fill="#071624" opacity=".12" mask="url(#artMask)"/>
+    <rect x="72" y="106" width="248" height="592" fill="url(#rail)" stroke="#7d8988" stroke-opacity=".32"/>
+    <path d="M72 106h5v592h-5z" fill="url(#cyan)"/>
+
+    <path d="M84 119h215v25H84z" fill="#e2e8e5"/>
+    <path d="M84 119h61v25H84z" fill="url(#cyan)"/>
+    <text x="94" y="136" fill="#06151a" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".8">AVAILABLE</text>
+    <text x="164" y="136" fill="#283033" font-family="Arial,sans-serif" font-size="11">PERSONNEL / ACTIVE</text>
+    <circle cx="91" cy="164" r="5" fill="#20b7da"/>
+    <circle cx="91" cy="183" r="5" fill="#20b7da"/>
+    <path d="m87 199 8 8m0-8-8 8" stroke="#e4e9e6" stroke-width="2"/>
+    <text x="84" y="240" fill="#9da8a7" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">ROLE / DEVELOPER</text>
+    <text x="84" y="270" fill="#fff" font-family="Arial,sans-serif" font-size="23" font-weight="700">Yvan Herbito</text>
+    <text x="84" y="293" fill="#aeb9b6" font-family="Arial,sans-serif" font-size="12">PERSONNEL RECORD / 01</text>
+    <path d="M84 310h206" stroke="#586360" stroke-width="1"/>
+
+    <text x="84" y="340" fill="#c6cfcc" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">BASE OF OPERATIONS</text>
+    <text x="84" y="361" fill="#f2f4f2" font-family="Arial,sans-serif" font-size="14">Valenzuela, Philippines</text>
+    <text x="84" y="398" fill="#c6cfcc" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">FOCUS</text>
+    <text x="84" y="419" fill="#f2f4f2" font-family="Arial,sans-serif" font-size="13">Programming and</text>
+    <text x="84" y="437" fill="#f2f4f2" font-family="Arial,sans-serif" font-size="13">problem solving</text>
+
+    <path d="M84 466h205v1H84z" fill="#586360"/>
+    <text x="84" y="495" fill="#aeb9b6" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">PROGRAMMING LANGUAGES</text>
+    <text x="82" y="561" fill="#fff" font-family="Arial,sans-serif" font-size="59" font-weight="700">07</text>
+    <text x="151" y="550" fill="#d5ddda" font-family="Arial,sans-serif" font-size="12">SPECIALTIES</text>
+    <text x="151" y="570" fill="#899491" font-family="Arial,sans-serif" font-size="10">LOCAL SKILL SET</text>
+    <g transform="translate(85 605)" fill="none" stroke="#aeb9b6" stroke-width="2">
+      <path d="m0 9 8-8 8 8-8 8zm34 0 8-8 8 8-8 8zm34 0 8-8 8 8-8 8zm34 0 8-8 8 8-8 8zm34 0 8-8 8 8-8 8z"/>
+    </g>
+    <text x="84" y="671" fill="#8d9996" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.2">PROFILE / RHODES ISLAND</text>
+
+    <rect x="742" y="108" width="552" height="142" rx="13" fill="#131719" fill-opacity=".97" stroke="#59615f"/>
+    <rect x="758" y="124" width="103" height="109" fill="#252c2e" stroke="#9ba5a2"/>
+    <circle cx="809" cy="170" r="31" fill="#101719" stroke="#17a8ca" stroke-width="2"/>
+    <text x="787" y="178" fill="#eff3ef" font-family="Arial,sans-serif" font-size="21" font-weight="700">YH</text>
+    <text x="880" y="143" fill="#9fa9a7" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.8">OPERATOR FILE / DEVELOPER</text>
+    <text x="880" y="175" fill="#f5f6f4" font-family="Arial,sans-serif" font-size="23" font-weight="700">Yvan Herbito</text>
+    <rect x="880" y="190" width="164" height="25" rx="3" fill="#343b3c"/>
+    <text x="891" y="207" fill="#c5cecb" font-family="Arial,sans-serif" font-size="12">LOCATION / VALENZUELA</text>
+    <path d="m1190 125 70 17-12 68-70 22 17-57z" fill="#0c1215" opacity=".68"/>
+    <text x="1151" y="225" fill="#798481" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">PERSONNEL</text>
+
+    <rect x="742" y="263" width="552" height="68" rx="11" fill="#111719" fill-opacity=".97" stroke="#3b4445"/>
+    <circle cx="771" cy="297" r="15" fill="#263033"/>
+    <path d="M764 297h14m-7-7v14" stroke="#d0d8d5" stroke-width="2"/>
+    <text x="799" y="289" fill="#8f9a97" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">OPERATOR MESSAGE</text>
+    <text x="799" y="313" fill="#edf1ee" font-family="Arial,sans-serif" font-size="15">A fun loving individual.</text>
+
+    <rect x="742" y="344" width="552" height="151" rx="12" fill="#111719" fill-opacity=".98" stroke="#41494a"/>
+    <text x="762" y="375" fill="#e7ece9" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing=".8">SPECIALTIES</text>
+    <text x="762" y="393" fill="#909b98" font-family="Arial,sans-serif" font-size="9" letter-spacing=".8">LANGUAGES</text>
+    <path d="m763 435 8-8 8 8-8 8z" fill="none" stroke="#85918e"/>
+    <g font-family="Arial,sans-serif" text-anchor="middle">
+      <g transform="translate(798 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="python-logo-only.png" x="13" y="10" width="36" height="50" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">PYTHON</text>
+      </g>
+      <g transform="translate(866 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="java.png" x="13" y="10" width="36" height="50" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">JAVA</text>
+      </g>
+      <g transform="translate(934 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="HTML5_logo_and_wordmark.svg" x="12" y="11" width="38" height="48" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">HTML</text>
+      </g>
+      <g transform="translate(1002 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="Official_CSS_Logo.svg" x="12" y="11" width="38" height="48" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">CSS</text>
+      </g>
+      <g transform="translate(1070 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="new-php-logo.png" x="11" y="11" width="40" height="48" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">PHP</text>
+      </g>
+      <g transform="translate(1138 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="logo_vertical_color_dark.png" x="14" y="9" width="34" height="54" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">GDSCRIPT</text>
+      </g>
+      <g transform="translate(1206 359)">
+        <rect width="62" height="112" rx="4" fill="#252d30" stroke="#535d5c"/>
+        <rect x="5" y="5" width="52" height="62" fill="#f1f3f0"/>
+        <image href="ISO_C++_Logo.svg" x="10" y="12" width="42" height="46" preserveAspectRatio="xMidYMid meet"/>
+        <text x="31" y="91" fill="#e4eae7" font-size="9" font-weight="700">C++</text>
+      </g>
+    </g>
+    <path d="m1278 435 8-8 8 8-8 8z" fill="none" stroke="#85918e"/>
+    <text x="1071" y="486" fill="#808b88" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">LOCAL LANGUAGE ICONS / 07 RECORDS</text>
+
+    <rect x="742" y="507" width="552" height="184" rx="12" fill="#111719" fill-opacity=".98" stroke="#4a5352"/>
+    <path d="m1185 524 85 81-85 78h-54l76-78-76-81z" fill="#cbd5d0" opacity=".09"/>
+    <path d="m1196 566 39 39-39 39-39-39z" fill="none" stroke="#b8c4bf" stroke-width="7" opacity=".32"/>
+    <text x="765" y="539" fill="#c4ceca" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.2">EDUCATIONAL BACKGROUND</text>
+    <text x="765" y="578" fill="#f5f6f3" font-family="Arial,sans-serif" font-size="26" font-weight="700">BACHELOR</text>
+    <text x="765" y="603" fill="#b5bfbb" font-family="Arial,sans-serif" font-size="13">PLV / YEAR 3</text>
+    <path d="M765 620h280" stroke="#697370" stroke-opacity=".65" stroke-width="2"/>
+    <text x="765" y="648" fill="#e2e8e5" font-family="Arial,sans-serif" font-size="13">Relevant coursework: Programming.</text>
+    <text x="765" y="674" fill="#81908b" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.4">ACADEMIC RECORD / ACTIVE</text>
+  </g>
+
+  <rect x="1335" y="128" width="48" height="48" rx="7" fill="url(#cyan)"/>
+  <path d="M1348 151a12 12 0 0 1 21-7m1 3v-8m0 8h-8m7 6a12 12 0 0 1-21 7m-1-3v8m0-8h8" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <rect x="1335" y="594" width="48" height="44" rx="6" fill="#252c2e"/>
+  <path d="m1348 623 19-19m-15-2 2-2 8 1 4 4 1 7-2 2m-13-7-4 4 1 7 4 4 7 1 4-4" fill="none" stroke="#d7dfdc" stroke-width="2.5"/>
+  <rect x="1335" y="646" width="48" height="44" rx="6" fill="#252c2e"/>
+  <path d="M1348 657h21v21h-21zm0 0 21 21m0-21-21 21" fill="none" stroke="#d7dfdc" stroke-width="2"/>
+
+  <text x="64" y="767" fill="#a5afac" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.8">PROFILE CARD / REFERENCE LAYOUT / CENTERED RAS ART</text>
+  <text x="1114" y="767" fill="#7f8a87" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.3">MOCKUP / V2</text>
+</svg>
